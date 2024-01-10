@@ -3,3 +3,9 @@
 ################################################################################
 
 /LunchOrder/.vs/LunchOrder/FileContentIndex
+/LunchOrder/LunchOrder.Data/bin/Debug/net8.0
+/LunchOrder/LunchOrder.Data/obj/Debug/net8.0
+/LunchOrder/LunchOrder.Models/obj/Debug/net8.0
+/LunchOrder/LunchOrder.Services/obj
+/LunchOrder/LunchOrder.Utility/obj/Debug/net8.0
+/LunchOrder/LunchOrder.Web/obj/Debug/net8.0

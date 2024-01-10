@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using LunchOrder.Models.Entitys;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace LunchOrder.Data.Data
 {
     public class ApplicationDbContext: DbContext
     {
+        public DbSet<User> Users { get; set; }
 
     }
 }

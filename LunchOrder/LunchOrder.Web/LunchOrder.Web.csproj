@@ -13,4 +13,8 @@
     <ProjectReference Include="..\LunchOrder.Utility\LunchOrder.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\NewFolder\" />
+  </ItemGroup>
+
 </Project>

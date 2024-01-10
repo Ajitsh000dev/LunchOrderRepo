@@ -1,9 +1,11 @@
-using LunchOrder.Web.Models;
+﻿using LunchOrder.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace LunchOrder.Web.Controllers
+namespace LunchOrder.Web.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -17,8 +19,8 @@ namespace LunchOrder.Web.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
+		[Authorize]
+		public IActionResult Privacy()
         {
             return View();
         }

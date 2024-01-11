@@ -1,11 +1,16 @@
-﻿using LunchOrder.Services.Services;
+﻿using LunchOrder.Data.Data;
+using LunchOrder.Data.Data.Repository.IRepository;
+using LunchOrder.Data.Data.Repository;
+using LunchOrder.Services.Services;
 using LunchOrder.Services.Services.IServices;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+//using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace LunchOrder.Web
 {
@@ -23,7 +28,10 @@ namespace LunchOrder.Web
             services.AddControllersWithViews();
             services.AddRazorPages(); // Add this line to enable Razor Pages
 			services.AddHttpContextAccessor();
-			services.AddScoped<IAuthenticationService, AuthenticationService>();
+
+            services.AddDbContext<ApplicationDbContext>(); // Adjust the version as needed
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
 			// Add authentication services
 			services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
 				.AddCookie(options =>

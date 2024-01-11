@@ -7,16 +7,23 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using LunchOrder.Data.Data.Repository.IRepository;
+using LunchOrder.Data.Data;
+using Microsoft.EntityFrameworkCore;
+using EntityFramework.Exceptions.Common;
 
 namespace LunchOrder.Web.Areas.Accounts.Pages
 {
     public class LoginModel : PageModel
     {
         private readonly ILogger<LoginModel> _logger;
+        private readonly ApplicationDbContext  _unitOfWork;
         public LunchOrder.Services.Services.IServices.IAuthenticationService _GetAuthentication;
-        public LoginModel(ILogger<LoginModel> logger, LunchOrder.Services.Services.IServices.IAuthenticationService getAuthentication)
+
+        public LoginModel(ILogger<LoginModel> logger, ApplicationDbContext unitOfWork, LunchOrder.Services.Services.IServices.IAuthenticationService getAuthentication)
         {
             _logger = logger;
+            _unitOfWork = unitOfWork;
             _GetAuthentication=getAuthentication;
 
         }
@@ -24,8 +31,17 @@ namespace LunchOrder.Web.Areas.Accounts.Pages
         [BindProperty]
         public LoginViewModel Input { get; set; }
 
-        public void OnGet()
+        public async void OnGet()
         {
+            try
+            {
+                var data = await _unitOfWork.user.FirstOrDefaultAsync();
+
+            }
+            catch (UniqueConstraintException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)

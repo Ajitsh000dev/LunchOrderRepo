@@ -10,8 +10,6 @@ namespace LunchOrder.Models.Entitys
 {
     public class User
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserID { get; set; }
         public int SchoolID { get; set; }
         public string FirstName { get; set; }
@@ -19,9 +17,9 @@ namespace LunchOrder.Models.Entitys
         public string Email { get; set; }
         public string Password { get; set; }
         public string UserType { get; set; }
-        public string Phone { get; set; }
-        public int Verified { get; set; }
-        public DateTime AddedOn { get; set; }
+        public string phone { get; set; }
+        public int verified { get; set; }
+        public DateTime addedon { get; set; }
     }
 
 }

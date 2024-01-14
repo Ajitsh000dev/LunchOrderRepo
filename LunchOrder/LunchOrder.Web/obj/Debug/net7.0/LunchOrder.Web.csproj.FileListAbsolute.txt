@@ -1,12 +1,3 @@
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.csproj.AssemblyReference.cache
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.GeneratedMSBuildEditorConfig.editorconfig
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.AssemblyInfoInputs.cache
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.AssemblyInfo.cs
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.csproj.CoreCompileInputs.cache
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.MvcApplicationPartsAssemblyInfo.cache
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.RazorAssemblyInfo.cache
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.RazorAssemblyInfo.cs
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.sourcelink.json
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\appsettings.Development.json
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\appsettings.json
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\LunchOrder.Web.staticwebassets.runtime.json
@@ -21,6 +12,8 @@ D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\Microsoft.Enti
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\MySql.Data.dll
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\MySqlConnector.dll
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\System.Security.Permissions.dll
@@ -33,6 +26,15 @@ D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\LunchOrder.Dat
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\LunchOrder.Models.pdb
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\LunchOrder.Services.pdb
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\LunchOrder.Utility.pdb
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.csproj.AssemblyReference.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.AssemblyInfoInputs.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.AssemblyInfo.cs
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.csproj.CoreCompileInputs.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.RazorAssemblyInfo.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.RazorAssemblyInfo.cs
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.sourcelink.json
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\staticwebassets.build.json
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\staticwebassets.development.json
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\staticwebassets\msbuild.LunchOrder.Web.Microsoft.AspNetCore.StaticWebAssets.props
@@ -49,5 +51,3 @@ D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\refint\LunchOr
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.pdb
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\LunchOrder.Web.genruntimeconfig.cache
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\obj\Debug\net7.0\ref\LunchOrder.Web.dll
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\MySqlConnector.dll
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll

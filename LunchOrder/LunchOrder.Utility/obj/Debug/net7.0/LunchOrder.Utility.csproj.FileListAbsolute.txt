@@ -10,6 +10,3 @@ D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\refint\LunchOrder.Utility.dll
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.pdb
 D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\ref\LunchOrder.Utility.dll
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\bin\Debug\net7.0\LunchOrder.Utility.runtimeconfig.json
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.csproj.AssemblyReference.cache
-D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.genruntimeconfig.cache

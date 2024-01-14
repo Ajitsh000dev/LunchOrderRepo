@@ -174,7 +174,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Http/2.2.2": {
+      "Microsoft.AspNetCore.Http/2.2.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -928,6 +928,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "LunchOrder.Models": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.1.34",
           "Microsoft.EntityFrameworkCore": "6.0.26",
           "MySql.Data": "6.10.9",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
@@ -942,9 +943,6 @@
       "LunchOrder.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.26"
-        },
         "compile": {
           "bin/placeholder/LunchOrder.Models.dll": {}
         },
@@ -956,9 +954,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
-          "Microsoft.AspNetCore.Http": "2.2.2",
-          "Microsoft.EntityFrameworkCore": "6.0.26"
+          "Microsoft.AspNetCore.Authentication": "2.2.0",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0"
         },
         "compile": {
           "bin/placeholder/LunchOrder.Services.dll": {}
@@ -970,9 +967,6 @@
       "LunchOrder.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.26"
-        },
         "compile": {
           "bin/placeholder/LunchOrder.Utility.dll": {}
         },
@@ -1116,16 +1110,16 @@
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http/2.2.2": {
-      "sha512": "BAibpoItxI5puk7YJbIGj95arZueM8B8M5xT1fXBn3hb3L2G3ucrZcYXv1gXdaroLbntUs8qeV8iuBrpjQsrKw==",
+    "Microsoft.AspNetCore.Http/2.2.0": {
+      "sha512": "YogBSMotWPAS/X5967pZ+yyWPQkThxhmzAwyCHCSSldzYBkW5W5d6oPfBaPqQOnSHYTpSOSOkpZoAce0vwb6+A==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http/2.2.2",
+      "path": "microsoft.aspnetcore.http/2.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.xml",
-        "microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
+        "microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.http.nuspec"
       ]
     },
@@ -2169,10 +2163,12 @@
       "LunchOrder.Models >= 1.0.0",
       "LunchOrder.Services >= 1.0.0",
       "LunchOrder.Utility >= 1.0.0",
+      "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.26",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.26",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.26",
-      "MySql.Data >= 6.10.9"
+      "MySql.Data >= 6.10.9",
+      "Pomelo.EntityFrameworkCore.MySql >= 6.0.2"
     ]
   },
   "packageFolders": {
@@ -2233,6 +2229,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Cookies": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.26, )"
@@ -2252,6 +2252,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[6.10.9, )"
+          },
+          "Pomelo.EntityFrameworkCore.MySql": {
+            "target": "Package",
+            "version": "[6.0.2, )"
           }
         },
         "imports": [

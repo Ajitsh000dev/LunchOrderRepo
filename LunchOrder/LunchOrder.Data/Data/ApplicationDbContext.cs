@@ -16,11 +16,11 @@ namespace LunchOrder.Data.Data
         public DbSet<User> user { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "server=desipizza.ca;port=3306;database=lunchbox;user=lunchbox;password=Lunch1234!;";
+            string connectionString = "server=desipizza.ca;port=3306;database=lunchbox;user=lunchbox;password=Lunch1234!;ConvertZeroDateTime=True;";
             //string connectionString = "Server=desipizza.ca;Database=lunchbox;User=lunchbox;Password=Lunch1234!;";
-            optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 22)));
+            optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
         }
-        
+
 
     }
 }

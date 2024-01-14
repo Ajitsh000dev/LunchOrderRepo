@@ -1,0 +1,15 @@
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\bin\Debug\net7.0\LunchOrder.Utility.deps.json
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\bin\Debug\net7.0\LunchOrder.Utility.dll
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\bin\Debug\net7.0\LunchOrder.Utility.pdb
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.AssemblyInfoInputs.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.AssemblyInfo.cs
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.csproj.CoreCompileInputs.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.sourcelink.json
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.dll
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\refint\LunchOrder.Utility.dll
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.pdb
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\ref\LunchOrder.Utility.dll
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\bin\Debug\net7.0\LunchOrder.Utility.runtimeconfig.json
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.csproj.AssemblyReference.cache
+D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Utility\obj\Debug\net7.0\LunchOrder.Utility.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Order\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj": {}
+    "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj": {}
   },
   "projects": {
-    "D:\\Order\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj": {
+    "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Order\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj",
+        "projectUniqueName": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj",
         "projectName": "LunchOrder.Data",
-        "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj",
+        "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Order\\LunchOrder\\LunchOrder.Data\\obj\\",
+        "outputPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,11 +30,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Order\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj": {
-                "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj"
+              "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj": {
+                "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj"
               }
             }
           }
@@ -46,12 +46,32 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[6.10.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -70,18 +90,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Order\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj": {
+    "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Order\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj",
+        "projectUniqueName": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj",
         "projectName": "LunchOrder.Models",
-        "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj",
+        "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Order\\LunchOrder\\LunchOrder.Models\\obj\\",
+        "outputPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,7 +112,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -100,8 +120,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -112,8 +132,26 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -130,18 +168,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Order\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj": {
+    "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Order\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj",
+        "projectUniqueName": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj",
         "projectName": "LunchOrder.Services",
-        "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj",
+        "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Order\\LunchOrder\\LunchOrder.Services\\obj\\",
+        "outputPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -152,7 +190,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -160,8 +198,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -172,8 +210,34 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,18 +254,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Order\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj": {
+    "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Order\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj",
+        "projectUniqueName": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj",
         "projectName": "LunchOrder.Utility",
-        "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj",
+        "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Order\\LunchOrder\\LunchOrder.Utility\\obj\\",
+        "outputPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -212,7 +276,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -220,8 +284,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -232,8 +296,26 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -250,18 +332,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Order\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj": {
+    "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Order\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj",
+        "projectUniqueName": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj",
         "projectName": "LunchOrder.Web",
-        "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj",
+        "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Web\\LunchOrder.Web.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Order\\LunchOrder\\LunchOrder.Web\\obj\\",
+        "outputPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,7 +354,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -280,20 +362,20 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Order\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj": {
-                "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj"
+              "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj": {
+                "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Data\\LunchOrder.Data.csproj"
               },
-              "D:\\Order\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj": {
-                "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj"
+              "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj": {
+                "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Models\\LunchOrder.Models.csproj"
               },
-              "D:\\Order\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj": {
-                "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj"
+              "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj": {
+                "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Services\\LunchOrder.Services.csproj"
               },
-              "D:\\Order\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj": {
-                "projectPath": "D:\\Order\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj"
+              "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj": {
+                "projectPath": "D:\\LunchOrderGitFolder\\LunchOrder\\LunchOrder.Utility\\LunchOrder.Utility.csproj"
               }
             }
           }
@@ -305,8 +387,30 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[6.10.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -326,7 +430,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

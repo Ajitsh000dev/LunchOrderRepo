@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LunchOrder",
+    "\\LunchOrder\\LunchOrder.Data",
+    "\\LunchOrder\\LunchOrder.Data\\Data",
+    "\\LunchOrder\\LunchOrder.Web",
+    "\\LunchOrder\\LunchOrder.Web\\Areas",
+    "\\LunchOrder\\LunchOrder.Web\\Areas\\Accounts",
+    "\\LunchOrder\\LunchOrder.Web\\Areas\\Accounts\\Pages"
   ],
-  "SelectedNode": "\\D:\\LunchOrderGitFolder",
+  "SelectedNode": "\\LunchOrder\\LunchOrder.Web\\Areas\\Accounts\\Pages\\Login.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }

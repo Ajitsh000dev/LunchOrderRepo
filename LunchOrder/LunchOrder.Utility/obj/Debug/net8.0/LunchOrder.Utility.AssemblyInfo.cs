@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LunchOrder.Utility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac6f718b02f08d8357e53b4ec1cf3b4f16a658ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("LunchOrder.Utility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LunchOrder.Utility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

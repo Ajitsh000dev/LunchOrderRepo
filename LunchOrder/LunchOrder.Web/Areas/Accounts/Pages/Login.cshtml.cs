@@ -10,7 +10,6 @@ using Microsoft.Extensions.Logging;
 using LunchOrder.Data.Data.Repository.IRepository;
 using LunchOrder.Data.Data;
 using Microsoft.EntityFrameworkCore;
-using EntityFramework.Exceptions.Common;
 
 namespace LunchOrder.Web.Areas.Accounts.Pages
 {
@@ -35,10 +34,10 @@ namespace LunchOrder.Web.Areas.Accounts.Pages
         {
             try
             {
-                var data = await _unitOfWork.user.FirstOrDefaultAsync();
+                var data =  _unitOfWork.user.FirstOrDefault();
 
             }
-            catch (UniqueConstraintException e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }

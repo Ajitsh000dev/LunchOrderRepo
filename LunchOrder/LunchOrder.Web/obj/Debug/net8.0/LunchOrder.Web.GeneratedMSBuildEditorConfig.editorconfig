@@ -18,16 +18,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\LunchOrderGitFolder\LunchOrder\LunchOrder.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Accounts/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudHNcUGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Accounts/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudHNcUGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Accounts/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudHNcUGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Accounts/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudHNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Accounts/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjb3VudHNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Admin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/LunchOrderGitFolder/LunchOrder/LunchOrder.Web/Views/Shared/_ValidationScriptsPartial.cshtml]

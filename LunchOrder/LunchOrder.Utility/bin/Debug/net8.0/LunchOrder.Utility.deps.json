@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LunchOrder.Utility/1.0.0": {
+        "runtime": {
+          "LunchOrder.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LunchOrder.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

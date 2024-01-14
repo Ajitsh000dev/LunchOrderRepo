@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchOrder.Web", "LunchOrder.Web\LunchOrder.Web.csproj", "{4355A938-93A3-4430-B0E2-10D3DBA68C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunchOrder.Web", "LunchOrder.Web\LunchOrder.Web.csproj", "{4355A938-93A3-4430-B0E2-10D3DBA68C6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchOrder.Data", "LunchOrder.Data\LunchOrder.Data.csproj", "{17BF55F4-6A6E-4753-AD8C-1A2F10323679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunchOrder.Data", "LunchOrder.Data\LunchOrder.Data.csproj", "{17BF55F4-6A6E-4753-AD8C-1A2F10323679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchOrder.Services", "LunchOrder.Services\LunchOrder.Services.csproj", "{2A353457-7F86-430F-886B-E44BBC60FB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunchOrder.Services", "LunchOrder.Services\LunchOrder.Services.csproj", "{2A353457-7F86-430F-886B-E44BBC60FB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchOrder.Utility", "LunchOrder.Utility\LunchOrder.Utility.csproj", "{A49B35C5-B786-4B01-9030-7FE6D58678A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunchOrder.Utility", "LunchOrder.Utility\LunchOrder.Utility.csproj", "{A49B35C5-B786-4B01-9030-7FE6D58678A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchOrder.Models", "LunchOrder.Models\LunchOrder.Models.csproj", "{B328D9F1-A640-4D49-9F2E-36972607ECCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunchOrder.Models", "LunchOrder.Models\LunchOrder.Models.csproj", "{B328D9F1-A640-4D49-9F2E-36972607ECCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
